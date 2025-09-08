@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fusion Hack 2025</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inter font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px; /* Adjust to header height */
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000000;
+            background-image: linear-gradient(135deg, #110d1e 0%, #000000 74%);
+            background-attachment: fixed;
+        }
+        /* Style for the active nav link */
+        .nav-link.active {
+            color: #a17fe0;
+            font-weight: 600;
+        }
+        /* Custom scrollbar for better aesthetics in dark mode */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #000;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(to bottom, #59c173, #a17fe0, #5d26c1);
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(to bottom, #6ee7b7, #c084fc, #7c3aed);
+        }
+    </style>
+</head>
+<body class="text-gray-300">
+
+    <header class="bg-black/80 backdrop-blur-lg sticky top-0 z-50 border-b border-gray-800">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-white">
+                Fusion<span class="text-transparent bg-clip-text bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1]">Hack</span>
+            </a>
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#home" class="nav-link text-gray-400 hover:text-[#a17fe0] transition-colors" data-target="home">Home</a>
+                <a href="#about" class="nav-link text-gray-400 hover:text-[#a17fe0] transition-colors" data-target="about">About</a>
+                <a href="#themes" class="nav-link text-gray-400 hover:text-[#a17fe0] transition-colors" data-target="themes">Themes</a>
+                <a href="#problems" class="nav-link text-gray-400 hover:text-[#a17fe0] transition-colors" data-target="problems">Problems</a>
+                <a href="#register" class="nav-link text-gray-400 hover:text-[#a17fe0] transition-colors active" data-target="register">Register</a>
+                <a href="#contact" class="nav-link text-gray-400 hover:text-[#a17fe0] transition-colors" data-target="contact">Contact</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#home" class="nav-link-mobile block py-2 px-4 text-sm text-gray-300 hover:bg-gray-800" data-target="home">Home</a>
+            <a href="#about" class="nav-link-mobile block py-2 px-4 text-sm text-gray-300 hover:bg-gray-800" data-target="about">About</a>
+            <a href="#themes" class="nav-link-mobile block py-2 px-4 text-sm text-gray-300 hover:bg-gray-800" data-target="themes">Themes</a>
+            <a href="#problems" class="nav-link-mobile block py-2 px-4 text-sm text-gray-300 hover:bg-gray-800" data-target="problems">Problems</a>
+            <a href="#register" class="nav-link-mobile block py-2 px-4 text-sm text-gray-300 hover:bg-gray-800" data-target="register">Register</a>
+            <a href="#contact" class="nav-link-mobile block py-2 px-4 text-sm text-gray-300 hover:bg-gray-800" data-target="contact">Contact</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-6 md:p-8 space-y-16 md:space-y-24">
+        
+        <!-- Home Section -->
+        <section id="home" class="content-section">
+            <div class="relative bg-black/40 backdrop-blur-sm border border-gray-800 rounded-2xl shadow-lg p-8 md:py-16 text-center overflow-hidden">
+                <div class="relative z-10">
+                    <h1 class="text-4xl md:text-6xl font-extrabold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1]">Join us for Fusion Hack 2025!</h1>
+                    <p class="text-4xl md:text-5xl font-extrabold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1]">SDC x SparshNFC.</p>
+                    <p class="text-gray-400 mt-6 text-lg max-w-4xl mx-auto">💡 Code, Create, Collaborate!</p>
+                    <p class="text-gray-400 mt-6 text-lg max-w-6xl mx-auto">A 6-hour journey of innovation, collaboration, and problem-solving where ideas turn into impactful solutions.</p>
+                    <p class="text-gray-400 mt-6 text-lg max-w-4xl mx-auto">Work with brilliant minds, tackle real-world challenges, and build the future together.</p>
+                    <p class="text-gray-400 mt-4 text-lg max-w-4xl mx-auto">DATE : 17/09/2025<br> VENUE : BMCET Seminar Hall</p>
+                     <a href="#register" class="mt-10 inline-block bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1] text-white font-bold py-3 px-8 rounded-lg hover:from-[#6ee7b7] hover:via-[#c084fc] hover:to-[#7c3aed] focus:outline-none focus:ring-4 focus:ring-[#a17fe0]/50 transition-all transform hover:scale-105">
+                        Register Your Team!
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="content-section">
+             <div class="bg-black/40 backdrop-blur-sm border border-gray-800 rounded-2xl shadow-lg p-8">
+                <div class="text-center mb-10">
+                    <h1 class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1]">About the Event</h1>
+                    <p class="text-gray-500 mt-2">Our mission, your opportunity.</p>
+                </div>
+                <div class="space-y-6 text-gray-300">
+                    <p>This event is engineered to unite students from diverse backgrounds to tackle challenging problems across different domains. It is a platform to showcase your skills, learn from peers, and get mentored by visionaries. </p>
+                    <p>We champion technology as a force for positive change. This year's themes—Frontend, Backend, Design, and Content Creation—reflect our commitment to solving some of the most pressing issues of our time.</p>
+                    <h3 class="text-2xl font-semibold pt-4 text-white">Why Participate?</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-400">
+                        <li>Build, break, and innovate with your teammates.</li>
+                        <li>Solve real-world challenges and supercharge your portfolio.</li>
+                        <li>Gain hands-on experience in solving real-world problems..</li>
+                        <li>Win exciting prizes and gain industry-wide recognition.</li>
+                        <li>Thrive in a collaborative and competitive environment.</li>
+                    </ul>
+             </div>
+        </section>
+        
+        <!-- Themes Section -->
+        <section id="themes" class="content-section">
+            <div class="bg-black/40 backdrop-blur-sm border border-gray-800 rounded-2xl shadow-lg p-8">
+                <div class="text-center mb-12">
+                    <h1 class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1]">Event Themes</h1>
+                    <p class="text-gray-500 mt-2">Explore the core areas of focus for this year's challenge.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Theme 1: Frontend -->
+                    <div class="text-center p-6 bg-black border border-gray-800 rounded-xl hover:border-green-500 hover:shadow-green-500/10 hover:shadow-lg hover:-translate-y-1 transition-all">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-green-900/50 text-green-400 mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white">Frontend</h3>
+                        <p class="text-gray-400 mt-2 text-sm">Challenges focused on UI/UX, responsive design, and modern web technologies.</p>
+                    </div>
+                    <!-- Theme 2: Backend -->
+                    <div class="text-center p-6 bg-black border border-gray-800 rounded-xl hover:border-red-500 hover:shadow-red-500/10 hover:shadow-lg hover:-translate-y-1 transition-all">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-red-900/50 text-red-400 mx-auto mb-4">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white">Backend</h3>
+                        <p class="text-gray-400 mt-2 text-sm">Develop robust APIs, manage databases, and implement secure authentication.</p>
+                    </div>
+                    <!-- Theme 3: Design -->
+                    <div class="text-center p-6 bg-black border border-gray-800 rounded-xl hover:border-yellow-500 hover:shadow-yellow-500/10 hover:shadow-lg hover:-translate-y-1 transition-all">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-yellow-900/50 text-yellow-400 mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12.586A2 2 0 0021 18.414l-2.586-2.586a2 2 0 00-2.828 0L14 17.586V5a2 2 0 00-2-2h-1a2 2 0 00-2 2v12a4 4 0 004 4zm-4-8h4" /></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white">Design</h3>
+                        <p class="text-gray-400 mt-2 text-sm">Create visually appealing and user-friendly interfaces, branding, and graphics.</p>
+                    </div>
+                    <!-- Theme 4: Content & Video -->
+                    <div class="text-center p-6 bg-black border border-gray-800 rounded-xl hover:border-purple-500 hover:shadow-purple-500/10 hover:shadow-lg hover:-translate-y-1 transition-all">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-purple-900/50 text-purple-400 mx-auto mb-4">
+                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white">Content & Video</h3>
+                        <p class="text-gray-400 mt-2 text-sm">Showcase your creativity through video editing and content creation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem Statements Section -->
+        <section id="problems" class="content-section">
+            <div class="bg-black/40 backdrop-blur-sm border border-gray-800 rounded-2xl shadow-lg p-8">
+                <div class="text-center mb-12">
+                    <h1 class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1]">Problem Statements</h1>
+                    <p class="text-gray-500 mt-2">Choose your challenge. Make an impact.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Problem Cards -->
+                    <div class="p-6 bg-black border border-gray-800 rounded-lg flex flex-col justify-between transition-all hover:-translate-y-1 hover:border-violet-500/50"><h4 class="font-semibold text-white">1. Research and Design a Website in Figma 🎨</h4><p class="text-sm text-gray-400 mt-2 flex-grow">Research and conceptualize an NFC card-based business, then create a complete landing page design in Figma.</p><button class="read-more-btn mt-4 w-full bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1] text-white font-semibold py-2 px-4 rounded-lg text-sm">Read More</button></div>
+                    <div class="p-6 bg-black border border-gray-800 rounded-lg flex flex-col justify-between transition-all hover:-translate-y-1 hover:border-violet-500/50"><h4 class="font-semibold text-white">2. UI Implementation from Figma Design 💻</h4><p class="text-sm text-gray-400 mt-2 flex-grow">Develop a fully responsive frontend that replicates the provided Figma design with pixel-perfect accuracy.</p><button class="read-more-btn mt-4 w-full bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1] text-white font-semibold py-2 px-4 rounded-lg text-sm">Read More</button></div>
+                    <div class="p-6 bg-black border border-gray-800 rounded-lg flex flex-col justify-between transition-all hover:-translate-y-1 hover:border-violet-500/50"><h4 class="font-semibold text-white">3. Implement Image using HTML/CSS/JS 🖼️</h4><p class="text-sm text-gray-400 mt-2 flex-grow">Implement a design based on a provided image using HTML, CSS, and JavaScript.</p><button class="read-more-btn mt-4 w-full bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1] text-white font-semibold py-2 px-4 rounded-lg text-sm">Read More</button></div>
+                    <div class="p-6 bg-black border border-gray-800 rounded-lg flex flex-col justify-between transition-all hover:-translate-y-1 hover:border-violet-500/50"><h4 class="font-semibold text-white">4. User-Choice Frontend Project 🚀</h4><p class="text-sm text-gray-400 mt-2 flex-grow">Participants will create a frontend project of their choice while fulfilling the required criteria listed below.</p><button class="read-more-btn mt-4 w-full bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1] text-white font-semibold py-2 px-4 rounded-lg text-sm">Read More</button></div>
+                    <div class="p-6 bg-black border border-gray-800 rounded-lg flex flex-col justify-between transition-all hover:-translate-y-1 hover:border-violet-500/50"><h4 class="font-semibold text-white">5. User Authentication 🔒</h4><p class="text-sm text-gray-400 mt-2 flex-grow">Implement a secure system for user registration and login.</p><button class="read-more-btn mt-4 w-full bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1] text-white font-semibold py-2 px-4 rounded-lg text-sm">Read More</button></div>
+                    <div class="p-6 bg-black border border-gray-800 rounded-lg flex flex-col justify-between transition-all hover:-translate-y-1 hover:border-violet-500/50"><h4 class="font-semibold text-white">6. Product Management - CRUD Operations 🛠️</h4><p class="text-sm text-gray-400 mt-2 flex-grow">Create a system where administrators can manage products efficiently.</p><button class="read-more-btn mt-4 w-full bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1] text-white font-semibold py-2 px-4 rounded-lg text-sm">Read More</button></div>
+                    <div class="p-6 bg-black border border-gray-800 rounded-lg flex flex-col justify-between transition-all hover:-translate-y-1 hover:border-violet-500/50"><h4 class="font-semibold text-white">7. Job Search & Filter System 🔍</h4><p class="text-sm text-gray-400 mt-2 flex-grow">Build a backend system that allows users to search and filter job listings efficiently.</p><button class="read-more-btn mt-4 w-full bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1] text-white font-semibold py-2 px-4 rounded-lg text-sm">Read More</button></div>
+                    <div class="p-6 bg-black border border-gray-800 rounded-lg flex flex-col justify-between transition-all hover:-translate-y-1 hover:border-violet-500/50"><h4 class="font-semibold text-white">8. User-Driven Content Posting System ✍️</h4><p class="text-sm text-gray-400 mt-2 flex-grow">Design a system where registered users can create posts and comments, with proper ownership control.</p><button class="read-more-btn mt-4 w-full bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1] text-white font-semibold py-2 px-4 rounded-lg text-sm">Read More</button></div>
+                    <div class="p-6 bg-black border border-gray-800 rounded-lg flex flex-col justify-between transition-all hover:-translate-y-1 hover:border-violet-500/50"><h4 class="font-semibold text-white">9. Personal Brand Card Design 🃏</h4><p class="text-sm text-gray-400 mt-2 flex-grow">Design a personal brand card that represents an individual's identity professionally.</p><button class="read-more-btn mt-4 w-full bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1] text-white font-semibold py-2 px-4 rounded-lg text-sm">Read More</button></div>
+                    <div class="p-6 bg-black border border-gray-800 rounded-lg flex flex-col justify-between transition-all hover:-translate-y-1 hover:border-violet-500/50"><h4 class="font-semibold text-white">10. Post Redesign Challenge ✨</h4><p class="text-sm text-gray-400 mt-2 flex-grow">Take the given post design as a reference and create your own improved version.</p><button class="read-more-btn mt-4 w-full bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1] text-white font-semibold py-2 px-4 rounded-lg text-sm">Read More</button></div>
+                    <div class="p-6 bg-black border border-gray-800 rounded-lg flex flex-col justify-between transition-all hover:-translate-y-1 hover:border-violet-500/50"><h4 class="font-semibold text-white">11. Video Challenge 🎬</h4><p class="text-sm text-gray-400 mt-2 flex-grow">Create a refined, visually appealing version of an original video, demonstrating creativity and attention to detail.</p><button class="read-more-btn mt-4 w-full bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1] text-white font-semibold py-2 px-4 rounded-lg text-sm">Read More</button></div>
+                    <div class="p-6 bg-black border border-gray-800 rounded-lg flex flex-col justify-between transition-all hover:-translate-y-1 hover:border-violet-500/50"><h4 class="font-semibold text-white">12. Content Creation Challenge 📝</h4><p class="text-sm text-gray-400 mt-2 flex-grow">Create a refined, visually appealing version of an original post, demonstrating creativity and attention to detail.</p><button class="read-more-btn mt-4 w-full bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1] text-white font-semibold py-2 px-4 rounded-lg text-sm">Read More</button></div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="register" class="content-section">
+             <div id="registration-form-container-main">
+                <div class="bg-black/40 backdrop-blur-sm border border-gray-800 rounded-2xl shadow-lg p-8">
+                    <div class="text-center mb-10">
+                        <h1 class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1]">Team Registration</h1>
+                        <p class="text-gray-500 mt-2">Fill out the form below to get started.</p>
+                    </div>
+
+                    <form id="registrationForm-main" class="space-y-8">
+                        <!-- Problem Statement Details -->
+                        <div class="p-6 border border-gray-800 rounded-xl bg-black/60">
+                            <h2 class="text-2xl font-semibold text-white mb-6">Problem Statement</h2>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <label for="problemId-main" class="block text-sm font-medium text-gray-400 mb-2">Problem Statement ID</label>
+                                    <select id="problemId-main" name="problemId" required class="w-full px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#a17fe0] focus:border-[#a17fe0] transition-all">
+                                        <option value="" disabled selected>Select a Problem ID</option>
+                                        <option value="1">Problem 1</option>
+                                        <option value="2">Problem 2</option>
+                                        <option value="3">Problem 3</option>
+                                        <option value="4">Problem 4</option>
+                                        <option value="5">Problem 5</option>
+                                        <option value="6">Problem 6</option>
+                                        <option value="7">Problem 7</option>
+                                        <option value="8">Problem 8</option>
+                                        <option value="9">Problem 9</option>
+                                        <option value="10">Problem 10</option>
+                                        <option value="11">Problem 11</option>
+                                        <option value="12">Problem 12</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="theme-main" class="block text-sm font-medium text-gray-400 mb-2">Theme</label>
+                                    <select id="theme-main" name="theme" required class="w-full px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#a17fe0] focus:border-[#a17fe0] transition-all">
+                                        <option value="" disabled selected>Select Theme</option>
+                                        <option value="frontend">Frontend</option>
+                                        <option value="backend">Backend</option>
+                                        <option value="design">Design</option>
+                                        <option value="content-video">Content & Video</option>
+                                    </select>
+                                </div>
+                                <div class="md:col-span-2">
+                                    <label for="problemDescription-main" class="block text-sm font-medium text-gray-400 mb-2">Problem Description</label>
+                                    <textarea id="problemDescription-main" name="problemDescription" rows="4" required class="w-full px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#a17fe0] focus:border-[#a17fe0] transition-all" placeholder="Select a Problem ID to see the description."></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Team Leader Details -->
+                        <div class="p-6 border border-gray-800 rounded-xl bg-black/60">
+                            <h2 class="text-2xl font-semibold text-white mb-6">Team Leader Details</h2>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                                <div>
+                                    <label for="name1-main" class="block text-sm font-medium text-gray-400 mb-2">Full Name</label>
+                                    <input type="text" id="name1-main" name="name1" required class="w-full px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#a17fe0] focus:border-[#a17fe0] transition-all" placeholder="e.g., rituraj singh">
+                                </div>                                              
+                                <div>
+                                    <label for="phone1-main" class="block text-sm font-medium text-gray-400 mb-2">Contact Number</label>
+                                    <input type="tel" id="phone1-main" name="phone1" required class="w-full px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#a17fe0] focus:border-[#a17fe0] transition-all" placeholder="e.g., 7990201438">
+                                </div>
+                                 <div>
+                                    <label for="email1-main" class="block text-sm font-medium text-gray-400 mb-2">Email Address</label>
+                                    <input type="email" id="email1-main" name="email1" required class="w-full px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#a17fe0] focus:border-[#a17fe0] transition-all" placeholder="e.g., rituraj.singh@gmail.com">
+                                </div>
+                                <div>
+                                    <label for="college1-main" class="block text-sm font-medium text-gray-400 mb-2">College</label>
+                                    <select id="college1-main" name="college1" required class="w-full px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#a17fe0] focus:border-[#a17fe0] transition-all">
+                                    <option value="" disabled selected>Select College</option>
+                                    <option>Bhagwan Mahavir College Of Engineering And Technology - BMCET.</option>
+                                    <option>Bhagwan Arihant Institute Of Technology - BAIT.</option>
+                                    <option>Mahavir Swami College Of Engineering & Technology - MSCET.</option>
+                                    <option>Bhagwan Mahavir Polytechnic - BMP.</option>
+                                    <option>Mahavir Swami College Of Polytechnic - MSCP.</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="gender1-main" class="block text-sm font-medium text-gray-400 mb-2">Gender</label>
+                                    <select id="gender1-main" name="gender1" required class="w-full px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#a17fe0] focus:border-[#a17fe0] transition-all">
+                                        <option value="" disabled selected>Select Gender</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="semester1-main" class="block text-sm font-medium text-gray-400 mb-2">Semester</label>
+                                    <select id="semester1-main" name="semester1" required class="w-full px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#a17fe0] focus:border-[#a17fe0] transition-all">
+                                        <option value="" disabled selected>Select Semester</option>
+                                        <option value="1">1st</option><option value="2">2nd</option><option value="3">3rd</option>
+                                        <option value="4">4th</option><option value="5">5th</option><option value="6">6th</option>
+                                        <option value="7">7th</option><option value="8">8th</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Member 2 Details -->
+                        <div class="p-6 border border-gray-800 rounded-xl bg-black/60">
+                            <h2 class="text-2xl font-semibold text-white mb-6">Member 2 Details (Optional)</h2>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                               <div>
+                                    <label for="name2-main" class="block text-sm font-medium text-gray-400 mb-2">Full Name</label>
+                                    <input type="text" id="name2-main" name="name2" class="w-full px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#a17fe0] focus:border-[#a17fe0] transition-all" placeholder="e.g., Parmar Aayush">
+                                </div>
+                                <div>
+                                    <label for="phone2-main" class="block text-sm font-medium text-gray-400 mb-2">Contact Number</label>
+                                    <input type="tel" id="phone2-main" name="phone2" class="w-full px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#a17fe0] focus:border-[#a17fe0] transition-all" placeholder="e.g., 8154818652">
+                                </div>
+                                 <div>
+                                    <label for="email2-main" class="block text-sm font-medium text-gray-400 mb-2">Email Address</label>
+                                    <input type="email" id="email2-main" name="email2" class="w-full px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#a17fe0] focus:border-[#a17fe0] transition-all" placeholder="e.g., parmaraayush@gmail.com">
+                                </div>
+                                <div>
+                                    <label for="college2-main" class="block text-sm font-medium text-gray-400 mb-2">College</label>
+                                    <select id="college2-main" name="college2" class="w-full px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#a17fe0] focus:border-[#a17fe0] transition-all">
+                                    <option value="" disabled selected>Select College</option>
+                                    <option>Bhagwan Mahavir College Of Engineering And Technology - BMCET.</option>
+                                    <option>Bhagwan Arihant Institute Of Technology - BAIT.</option>
+                                    <option>Mahavir Swami College Of Engineering & Technology - MSCET.</option>
+                                    <option>Bhagwan Mahavir Polytechnic - BMP.</option>
+                                    <option>Mahavir Swami College Of Polytechnic - MSCP.</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="gender2-main" class="block text-sm font-medium text-gray-400 mb-2">Gender</label>
+                                    <select id="gender2-main" name="gender2" class="w-full px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#a17fe0] focus:border-[#a17fe0] transition-all">
+                                        <option value="" disabled selected>Select Gender</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="semester2-main" class="block text-sm font-medium text-gray-400 mb-2">Semester</label>
+                                    <select id="semester2-main" name="semester2" class="w-full px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#a17fe0] focus:border-[#a17fe0] transition-all">
+                                        <option value="" disabled selected>Select Semester</option>
+                                        <option value="1">1st</option><option value="2">2nd</option><option value="3">3rd</option>
+                                        <option value="4">4th</option><option value="5">5th</option><option value="6">6th</option>
+                                        <option value="7">7th</option><option value="8">8th</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Submission Button -->
+                        <div>
+                            <button type="submit" class="w-full bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1] text-white font-bold py-4 px-6 rounded-lg hover:from-[#6ee7b7] hover:via-[#c084fc] hover:to-[#7c3aed] focus:outline-none focus:ring-4 focus:ring-[#a17fe0]/50 transition-all transform hover:scale-102 flex items-center justify-center">
+                                Register Team
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+             <!-- Success Message -->
+            <div id="success-message-main" class="hidden text-center bg-gray-900 border border-gray-800 rounded-2xl shadow-lg p-12">
+                 <svg class="w-16 h-16 mx-auto text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <h2 class="text-3xl font-bold text-white mt-6">Registration Successful!</h2>
+                <p class="text-gray-400 mt-2">Thank you for registering. We've received your team's details.</p>
+                <button id="register-another-main" class="mt-8 bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-gray-600 transition-all">Register Another Team</button>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="content-section">
+            <div class="bg-black/40 backdrop-blur-sm border border-gray-800 rounded-2xl shadow-lg p-8">
+                <div class="text-center mb-12">
+                    <h1 class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1]">Contact Us</h1>
+                    <p class="text-gray-500 mt-2">Have questions? We'd love to hear from you.</p>
+                </div>
+                <div class="max-w-4xl mx-auto flex flex-col md:flex-row justify-center items-center gap-8">
+                    <!-- Call Button -->
+                    <a href="tel:7990201438" class="flex items-center justify-center gap-3 w-full md:w-auto bg-gradient-to-r from-[#59c173] to-[#a17fe0] text-white font-bold py-3 px-8 rounded-lg hover:from-[#6ee7b7] hover:to-[#c084fc] focus:outline-none focus:ring-4 focus:ring-green-500/50 transition-all transform hover:scale-105">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                        Call Us
+                    </a>
+            
+                    <!-- WhatsApp Button -->
+                    <a href="https://wa.me/7990201438" target="_blank" class="flex items-center justify-center gap-3 w-full md:w-auto bg-gradient-to-r from-[#a17fe0] to-[#5d26c1] text-white font-bold py-3 px-8 rounded-lg hover:from-[#c084fc] hover:to-[#7c3aed] focus:outline-none focus:ring-4 focus:ring-emerald-500/50 transition-all transform hover:scale-105">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.885.002 2.17.639 4.288 1.805 6.041l-1.238 4.536 4.649-1.225z"/></svg>
+                        WhatsApp
+                    </a>
+            
+                    <!-- Mail Button -->
+                    <a href="mailto:stydentdeveloperclub.foe@bmusurat.ac.in" class="flex items-center justify-center gap-3 w-full md:w-auto bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1] text-white font-bold py-3 px-8 rounded-lg hover:from-[#6ee7b7] hover:via-[#c084fc] hover:to-[#7c3aed] focus:outline-none focus:ring-4 focus:ring-[#a17fe0]/50 transition-all transform hover:scale-105">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        Mail Us
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hidden Details for Modals -->
+        <div class="hidden">
+            <div id="problem-details-1"><h3 class="text-2xl font-bold text-white mb-4">Problem 1: Research and Design a Website in Figma 🎨</h3><h4 class="text-lg font-semibold text-[#a17fe0] mb-2">Objective:</h4><p class="text-gray-400 mb-4">Research and conceptualize an NFC card-based business, then create a complete landing page design in Figma.</p><h4 class="text-lg font-semibold text-[#a17fe0] mb-2">Key Focus:</h4><p class="text-gray-400 mb-4">The landing page should be modern, visually appealing, and user-friendly, designed to guide visitors seamlessly toward conversion (e.g., requesting a demo, or making a purchase).</p><h4 class="text-lg font-semibold text-[#a17fe0] mb-2">Expected Outcome:</h4><ul class="list-disc list-inside text-gray-400 space-y-2"><li>A fully designed landing page in Figma that communicates the NFC business/product effectively.</li><li>Clear user journey from awareness to conversion.</li><li>Ready-to-hand-off design for further implementation or marketing use.</li></ul></div>
+            <div id="problem-details-2"><h3 class="text-2xl font-bold text-white mb-4">Problem 2: UI Implementation from Figma Design 💻</h3><h4 class="text-lg font-semibold text-[#a17fe0] mb-2">Objective:</h4><p class="text-gray-400 mb-4">Develop a fully responsive frontend that replicates the provided Figma design with pixel-perfect accuracy.</p><h4 class="text-lg font-semibold text-[#a17fe0] mb-2">Participants are required to:</h4><ul class="list-disc list-inside text-gray-400 space-y-2"><li>Implement all screens and components exactly as shown in the Figma design.</li><li>Ensure responsive layouts for desktop, tablet, and mobile views.</li><li>Use modern frontend technologies (HTML, CSS, JavaScript, or frameworks like React/Vue) to match interactions, animations, and UI behavior in the Figma file.</li><li>Follow design specifications.</li></ul><p class="mt-4 text-gray-400">Figma Link: <a href="https://www.figma.com/design/UAwMO3APurvcmOEUplpNKf/Untitled?node-id=0-1&t=IL7pN3i8tir6RkQ2-1" target="_blank" class="text-violet-400 hover:underline">View Design</a></p></div>
+            <div id="problem-details-3">
+                <h3 class="text-2xl font-bold text-white mb-4">Problem 3: Implement below image using HTML, CSS, and JavaScript 🖼️</h3>
+                <p class="text-gray-400 mb-6">Implement a design based on one of the provided reference images using HTML, CSS, and JavaScript. The focus is on translating a visual concept into a functional, responsive web interface.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h4 class="text-lg font-semibold text-[#a17fe0] mb-2 text-center">Reference 1</h4>
+                        <img src="1ps.jpeg" alt="Reference UI 1" class="rounded-lg border border-gray-700 w-full">
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold text-[#a17fe0] mb-2 text-center">Reference 2</h4>
+                        <img src="2ps.jpeg" alt="Reference UI 2" class="rounded-lg border border-gray-700 w-full">
+                    </div>
+                </div>
+                 <div class="mt-8 text-center">
+                    <a href="design.pdf" class="inline-flex items-center gap-2 bg-gradient-to-r from-[#59c173] via-[#a17fe0] to-[#5d26c1] text-white font-bold py-3 px-8 rounded-lg hover:from-[#6ee7b7] hover:via-[#c084fc] hover:to-[#7c3aed] focus:outline-none focus:ring-4 focus:ring-[#a17fe0]/50 transition-all transform hover:scale-105">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                        Download PDF
+                    </a>
+                </div>
+            </div>
+            <div id="problem-details-4"><h3 class="text-2xl font-bold text-white mb-4">Problem 4: User-Choice Frontend Project 🚀</h3><p class="text-gray-400">Participants will create a frontend project of their choice (e.g., landing page, dashboard, portfolio, product showcase) while fulfilling the required criteria listed below. This allows creativity while ensuring essential frontend skills are tested.</p></div>
+            <div id="problem-details-5"><h3 class="text-2xl font-bold text-white mb-4">Problem 5: User Authentication 🔒</h3><h4 class="text-lg font-semibold text-[#a17fe0] mb-2">Objective:</h4><p class="text-gray-400 mb-4">Implement a secure system for user registration and login.</p><h4 class="text-lg font-semibold text-[#a17fe0] mb-2">Requirements:</h4><ul class="list-disc list-inside text-gray-400 space-y-2"><li>Users can register with email/username and password.</li><li>Authentication can be implemented using JWT tokens or sessions.</li><li>Ensure proper password validation.</li></ul><h4 class="text-lg font-semibold text-[#a17fe0] mt-4 mb-2">Expected Outcome:</h4><p class="text-gray-400">A working authentication system where only registered users can access certain endpoints.</p></div>
+            <div id="problem-details-6"><h3 class="text-2xl font-bold text-white mb-4">Problem 6: Product Management - CRUD Operations 🛠️</h3><h4 class="text-lg font-semibold text-[#a17fe0] mb-2">Objective:</h4><p class="text-gray-400 mb-4">Create a system where administrators can manage products efficiently.</p><h4 class="text-lg font-semibold text-[#a17fe0] mb-2">Requirements:</h4><ul class="list-disc list-inside text-gray-400 space-y-2"><li>Create: Add new products with fields.</li><li>Read: Fetch all products or a single product by ID.</li><li>Update: Update product details.</li><li>Delete: Delete a product.</li><li>Data Storage: Store products in a database.</li></ul><h4 class="text-lg font-semibold text-[#a17fe0] mt-4 mb-2">Expected Outcome:</h4><p class="text-gray-400">Fully functional backend API allowing admins to create, view, update, and delete products.</p></div>
+            <div id="problem-details-7"><h3 class="text-2xl font-bold text-white mb-4">Problem 7: Job Search & Filter System 🔍</h3><h4 class="text-lg font-semibold text-[#a17fe0] mb-2">Objective:</h4><p class="text-gray-400 mb-4">Build a backend system that allows users to search and filter job listings efficiently.</p><h4 class="text-lg font-semibold text-[#a17fe0] mb-2">Requirements:</h4><ul class="list-disc list-inside text-gray-400 space-y-2"><li>Search by keywords (e.g., "web Developer"). Partial and case-insensitive matches.</li><li>Filter by Location (e.g., Surat, Bangalore), Domain/Role (e.g., Web Developer, Data Science), Company (e.g., Infosys, TCS).</li><li>Apply multiple filters together. Example: Domain = Web Developer + Company = Infosys + Location = Surat.</li></ul><h4 class="text-lg font-semibold text-[#a17fe0] mt-4 mb-2">Expected Outcome:</h4><p class="text-gray-400">API that returns relevant job listings based on search and filter criteria.</p></div>
+            <div id="problem-details-8"><h3 class="text-2xl font-bold text-white mb-4">Problem 8: User-Driven Content Posting System ✍️</h3><h4 class="text-lg font-semibold text-[#a17fe0] mb-2">Objective:</h4><p class="text-gray-400 mb-4">Design a system where registered users can create posts and comments, with proper ownership control.</p><h4 class="text-lg font-semibold text-[#a17fe0] mb-2">Requirements:</h4><ul class="list-disc list-inside text-gray-400 space-y-2"><li>User Authentication: Only registered users can create posts or comments.</li><li>Post Creation: Users can create posts in multiple formats (text, image).</li><li>Post Ownership & Deletion: Only the author can delete their post. No other user can modify or delete it.</li><li>Comment System: Any registered user can comment on posts. Only the comment author can delete their comment. Post authors cannot delete others' comments.</li></ul><h4 class="text-lg font-semibold text-[#a17fe0] mt-4 mb-2">Expected Outcome:</h4><p class="text-gray-400">Backend API allowing users to create posts, comment, and manage content securely with ownership rules enforced.</p></div>
+            <div id="problem-details-9"><h3 class="text-2xl font-bold text-white mb-4">Problem 9: Personal Brand Card Design 🃏</h3><h4 class="text-lg font-semibold text-[#a17fe0] mb-2">Objective:</h4><p class="text-gray-400 mb-4">Design a personal brand card that represents an individual's identity professionally. The card should clearly showcase the person's name, role, contact information, and branding elements, and be visually appealing for sharing digitally or in an NFC-enabled application.</p><h4 class="text-lg font-semibold text-[#a17fe0] mb-2">Requirements:</h4><ul class="list-disc list-inside text-gray-400 space-y-2"><li>Card Content: Full Name, Title / Role / Profession, Contact details (phone, email, social links), Optional: Short tagline or personal motto.</li><li>Design & Branding: Use a consistent color palette, typography, and layout reflecting the individual's brand. Include profile image or logo if desired. Ensure visual hierarchy for easy reading.</li><li>Interactivity (Optional): Hover effects, clickable links, or QR/NFC integration for digital sharing.</li><li>Format & Responsiveness: Design should work for digital sharing (social media, email, app) and adapt to different screen sizes. Maintain clarity and aesthetics even at smaller sizes.</li><li>Creativity & Professionalism: Showcase personal branding through colors, fonts, icons, or unique design elements. Keep a clean, modern, and professional look.</li></ul><h4 class="text-lg font-semibold text-[#a17fe0] mt-4 mb-2">Expected Outcome:</h4><ul class="list-disc list-inside text-gray-400 space-y-2"><li>A polished personal brand card that can be shared digitally or integrated into NFC applications.</li><li>Demonstrates design sensibility, clarity, and professional branding.</li><li>Ready-to-use Figma design with clear content hierarchy and visual appeal.</li></ul></div>
+            <div id="problem-details-10"><h3 class="text-2xl font-bold text-white mb-4">Problem 10: Post Redesign Challenge ✨</h3><h4 class="text-lg font-semibold text-[#a17fe0] mb-2">Objective:</h4><p class="text-gray-400 mb-4">Take the given post design as a reference and create your own improved version. Focus on enhancing visual appeal, clarity, and engagement while keeping the core message intact.</p><h4 class="text-lg font-semibold text-[#a17fe0] mb-2">Requirements:</h4><ul class="list-disc list-inside text-gray-400 space-y-2"><li>Redesign & Creativity: Analyze the given post and identify areas for improvement. Reimagine layout, colors, typography, and visuals to make it more engaging and modern.</li><li>Content & Messaging: Maintain the core information/message of the original post. Optional: Add supporting elements like icons, illustrations, or call-to-action.</li><li>Design Principles: Ensure a clear visual hierarchy and readability. Use consistent colors, fonts, and spacing. Make the design suitable for digital sharing (social media, app, website).</li><li>Creativity & Personal Touch: Add your own style or branding elements to make it unique. Incorporate interactive elements if applicable (for digital post mockups).</li></ul><h4 class="text-lg font-semibold text-[#a17fe0] mt-4 mb-2">Expected Outcome:</h4><ul class="list-disc list-inside text-gray-400 space-y-2"><li>A refined, visually appealing version of the original post.</li><li>Demonstrates creativity, design sensibility, and attention to detail.</li><li>Ready-to-share Figma or digital design mockup.</li></ul></div>
+            <div id="problem-details-11"><h3 class="text-2xl font-bold text-white mb-4">Problem 11: video Challenge 🎬</h3><p class="text-gray-400">Create a refined, visually appealing version of an original video, demonstrating creativity and attention to detail.</p></div>
+            <div id="problem-details-12"><h3 class="text-2xl font-bold text-white mb-4">Problem 12: content creation Challenge 📝</h3><p class="text-gray-400">Create a refined, visually appealing version of an original post, demonstrating creativity and attention to detail.</p></div>
+        </div>
+    
+    <!-- Error Modal -->
+    <div id="error-modal" class="hidden fixed inset-0 bg-black bg-opacity-70 overflow-y-auto h-full w-full flex items-center justify-center z-50">
+        <div class="relative mx-auto p-5 border border-gray-700 w-full max-w-md shadow-lg rounded-2xl bg-gray-900">
+            <div class="mt-3 text-center">
+                <div class="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-red-900/50">
+                    <svg class="h-6 w-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+                <h3 class="text-lg leading-6 font-medium text-white mt-4">Submission Failed!</h3>
+                <div class="mt-2 px-7 py-3">
+                    <p id="error-message-text" class="text-sm text-gray-400">
+                        Something went wrong. Please check your connection and try again.
+                    </p>
+                </div>
+                <div class="items-center px-4 py-3">
+                    <button id="close-error-modal" class="px-4 py-2 bg-red-600 text-white text-base font-medium rounded-lg w-full shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-red-500">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Problem Statement Modal -->
+    <div id="problem-modal" class="hidden fixed inset-0 bg-black bg-opacity-70 backdrop-blur-sm overflow-y-auto h-full w-full flex items-center justify-center z-50 p-4">
+        <div class="relative mx-auto p-8 border border-gray-700 w-full max-w-2xl max-h-[90vh] overflow-y-auto shadow-lg rounded-2xl bg-gray-900">
+            <div id="modal-content-container">
+                <!-- Problem details will be injected here -->
+            </div>
+            <button id="close-problem-modal" class="absolute top-4 right-4 text-gray-500 hover:text-white transition-colors">
+                <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+        </div>
+    </div>
+
+    <footer class="border-t border-gray-800 mt-24">
+        <div class="container mx-auto px-6 py-4 text-center text-gray-500">
+            <p>&copy; 2025 Fusion Hackathon. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script>
+        const sections = document.querySelectorAll('.content-section');
+        const navLinks = document.querySelectorAll('.nav-link');
+        
+        const formContainer = document.getElementById('registration-form-container-main');
+        const successMessage = document.getElementById('success-message-main');
+        const registrationForm = document.getElementById('registrationForm-main');
+        const registerAnotherButton = document.getElementById('register-another-main');
+        const submitButton = registrationForm.querySelector('button[type="submit"]');
+        const errorModal = document.getElementById('error-modal');
+        const errorMessageText = document.getElementById('error-message-text');
+        const closeErrorModalButton = document.getElementById('close-error-modal');
+
+        // Scrollspy for active nav link
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.dataset.target === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Form Submission Logic
+        const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwRQuvM7G6A5A7HaVuH7qlbD41UkiLp7-tikpLXc6IOGqgOIWxxw5BUDeyDCcZ1n8tx/exec'; 
+
+        registrationForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            submitButton.disabled = true;
+            submitButton.innerHTML = `
+                <svg class="animate-spin h-5 w-5 mr-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                Submitting...
+            `;
+
+            const formData = new FormData(registrationForm);
+
+            fetch(GOOGLE_SCRIPT_URL, {
+                method: 'POST',
+                body: formData,
+            })
+            .then(response => {
+                if (!response.ok) throw new Error(`Network response was not ok: ${response.statusText}`);
+                return response.json();
+            })
+            .then(data => {
+                if (data.result === 'success') {
+                    formContainer.classList.add('hidden');
+                    successMessage.classList.remove('hidden');
+                } else {
+                    throw new Error(data.message || 'An unknown server error occurred.');
+                }
+            })
+            .catch(error => {
+                console.error('Error submitting form:', error);
+                errorMessageText.textContent = `An error occurred: ${error.message}. Please check the console for details.`;
+                errorModal.classList.remove('hidden');
+            })
+            .finally(() => {
+                submitButton.disabled = false;
+                submitButton.innerHTML = 'Register Team';
+            });
+        });
+        
+        registerAnotherButton.addEventListener('click', function() {
+            registrationForm.reset();
+            successMessage.classList.add('hidden');
+            formContainer.classList.remove('hidden');
+        });
+        
+        closeErrorModalButton.addEventListener('click', () => {
+            errorModal.classList.add('hidden');
+        });
+
+        // Modal Logic for Problem Statements
+        const problemModal = document.getElementById('problem-modal');
+        const modalContentContainer = document.getElementById('modal-content-container');
+        const closeProblemModalButton = document.getElementById('close-problem-modal');
+        const readMoreButtons = document.querySelectorAll('.read-more-btn');
+
+        if (problemModal && closeProblemModalButton && readMoreButtons.length > 0) {
+            readMoreButtons.forEach((button, index) => {
+                button.addEventListener('click', () => {
+                    const problemDetailsId = `problem-details-${index + 1}`;
+                    const problemDetails = document.getElementById(problemDetailsId);
+                    
+                    if (problemDetails) {
+                        modalContentContainer.innerHTML = problemDetails.innerHTML;
+                        problemModal.classList.remove('hidden');
+                        document.body.style.overflow = 'hidden'; // Prevent background scrolling
+                    }
+                });
+            });
+
+            const closeProblemModal = () => {
+                problemModal.classList.add('hidden');
+                document.body.style.overflow = ''; // Restore background scrolling
+            };
+
+            closeProblemModalButton.addEventListener('click', closeProblemModal);
+
+            problemModal.addEventListener('click', (event) => {
+                if (event.target === problemModal) {
+                    closeProblemModal();
+                }
+            });
+        }
+
+        // Autofill logic for problem description
+        const problemIdSelect = document.getElementById('problemId-main');
+        const problemDescriptionTextarea = document.getElementById('problemDescription-main');
+        const themeSelect = document.getElementById('theme-main');
+
+        const problemDescriptions = [
+            "Research and conceptualize an NFC card-based business, then create a complete landing page design in Figma.",
+            "Develop a fully responsive frontend that replicates the provided Figma design with pixel-perfect accuracy.",
+            "Implement a design based on a provided image using HTML, CSS, and JavaScript.",
+            "Participants will create a frontend project of their choice while fulfilling the required criteria listed below.",
+            "Implement a secure system for user registration and login.",
+            "Create a system where administrators can manage products efficiently.",
+            "Build a backend system that allows users to search and filter job listings efficiently.",
+            "Design a system where registered users can create posts and comments, with proper ownership control.",
+            "Design a personal brand card that represents an individual's identity professionally.",
+            "Take the given post design as a reference and create your own improved version.",
+            "Create a refined, visually appealing version of an original video, demonstrating creativity and attention to detail.",
+            "Create a refined, visually appealing version of an original post, demonstrating creativity and attention to detail."
+        ];
+
+        if (problemIdSelect && problemDescriptionTextarea && themeSelect) {
+            problemIdSelect.addEventListener('change', () => {
+                const selectedId = parseInt(problemIdSelect.value, 10);
+                
+                if (selectedId && selectedId >= 1 && selectedId <= 12) {
+                    problemDescriptionTextarea.value = problemDescriptions[selectedId - 1];
+                } else {
+                    problemDescriptionTextarea.value = '';
+                }
+
+                if (selectedId >= 1 && selectedId <= 4) {
+                    themeSelect.value = 'frontend';
+                } else if (selectedId >= 5 && selectedId <= 8) {
+                    themeSelect.value = 'backend';
+                } else if (selectedId >= 9 && selectedId <= 10) {
+                    themeSelect.value = 'design';
+                } else if (selectedId >= 11 && selectedId <= 12) {
+                    themeSelect.value = 'content-video';
+                } else {
+                    themeSelect.value = '';
+                }
+            });
+        }
+        
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileNavLinks = document.querySelectorAll('.nav-link-mobile');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+    </script>
+
+</body>
+</html>
+
